@@ -13,7 +13,7 @@ body {
 .contenedor {
 	width: 90%;
 	max-width: 1200px;
-	margin: 40px auto 100px auto;
+	margin: 40px auto 50px auto;
 
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -75,7 +75,7 @@ body {
 	.contenedor {
 		width: 90%;
 		max-width: 1200px;
-		margin: 40px auto 100px auto;
+		margin: 40px auto 50px auto;
 
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -106,7 +106,7 @@ body {
 	.contenedor {
 		width: 90%;
 		max-width: 1200px;
-		margin: 40px auto 100px auto;
+		margin: 40px auto 50px auto;
 
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -179,8 +179,21 @@ body {
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 10px;
+	font-size: 20px;
+}
+
+.ptop3 {
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 10px;
 	font-size: 18px;
 }
+.ptop4 {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
 
 .img {
 	width: 100px;
