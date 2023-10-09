@@ -3,7 +3,7 @@ const URL_BASE = 'https://api.themoviedb.org/3/movie/popular?'
 const languageEs = '&language=es-MX'
 const btnRandom = document.getElementById('btnRandom');
 const movieInfo = document.getElementById('movies');
-const pagina= 1;
+const pagina = 1;
 
 function obtenerPaginaRandom() {
     return Math.floor(Math.random() * 500) + 1;
