@@ -41,7 +41,7 @@ body {
 	width: 90%;
 	max-width: 1200px;
 	margin: 40px auto 100px auto;
-	
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -61,14 +61,13 @@ body {
 }
 
 .contenedor2 .pelicula2 .poster2 {
-	max-width: 100%;
-	width: 300px;
+	max-width: 70%;
 	margin-bottom: 10px;
 	border-radius: 8px;
 }
 
 .description {
-	max-width: 300px;
+	max-width: 350px;
 }
 
 @media(min-width: 600px) {
@@ -97,8 +96,28 @@ body {
 		margin-bottom: 10px;
 		border-radius: 8px;
 	}
+
+	.contenedor2 .pelicula2 {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contenedor2 .pelicula2 .titulo2 {
+		font-weight: bold;
+		color: black;
+		margin: 10px auto;
+	}
+
+	.contenedor2 .pelicula2 .poster2 {
+		max-width: 85%;
+		margin-bottom: 10px;
+		border-radius: 8px;
+	}
+
 	.description {
-		max-width: 600px;
+		max-width: 500px;
 	}
 }
 
@@ -130,7 +149,7 @@ body {
 	}
 
 	.description {
-		max-width: 800px;
+		max-width: 700px;
 	}
 }
 
@@ -188,6 +207,7 @@ body {
 	margin-top: 10px;
 	font-size: 18px;
 }
+
 .ptop4 {
 	text-align: center;
 	margin-top: 10px;
