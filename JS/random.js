@@ -19,9 +19,9 @@ function obtenerPeliculaRandom(pagina) {
 }
 
 btnRandom.addEventListener('click', () => {
-    const randomPage = obtenerPaginaRandom();
+    const rpaginaRandom = obtenerPaginaRandom();
 
-    obtenerPeliculaRandom(randomPage)
+    obtenerPeliculaRandom(rpaginaRandom)
         .then(pelicula => {
             movieInfo.innerHTML = `
                 <div class="pelicula2">
